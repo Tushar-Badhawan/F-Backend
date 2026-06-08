@@ -13,7 +13,7 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
 # ========== CONFIG ==========
-THRESHOLD = 0.07  # 7% similarity threshold
+THRESHOLD = 0.00 
 BACKEND_DIR = Path(__file__).parent
 MASTER_EMB_PATH = BACKEND_DIR / "embeddings_output" / "master_embedding.json"
 SAVED_FACES_DIR = BACKEND_DIR / "saved_faces"
